@@ -1,0 +1,51 @@
+﻿/* Add styles to the outer container div */
+.p-4.col-md-12.col-lg-6 {
+    border: 1px solid #000; /* Border line style */
+    border-radius: 20px; /* Rounded corners */
+    padding: 10px; /* Padding inside the container */
+}
+
+/* Add styles to the inner row div */
+.row {
+    border-radius: 20px; /* Rounded corners */
+    border: 1px solid #ffffff; /* Border line style */
+    padding: 10px; /* Padding inside the row */
+}
+
+/* Add styles to the image */
+img.d-block.w-100 {
+    border-radius: 20px; /* Rounded corners for the image */
+}
+
+/* Add styles to the card title */
+p.card-title.text-warning {
+    font-size: xx-large;
+    color: #ff6a00; /* Text color for the title */
+}
+
+/* Add styles to the card text */
+p.card-text {
+    /* Add any additional styles you want for the card text */
+}
+
+/* Add styles to the "Book" button */
+a.btn.btn-success.form-control.btn-block {
+    /* Add any additional styles you want for the button */
+}
+
+/* Add styles to the "Max Occupancy" and "Villa Size" spans */
+.col-4 span {
+    /* Add any additional styles you want for the spans */
+}
+
+/* Add styles to the price display */
+span.text-warning.float-end.font-weight-bold {
+    font-size: 25px;
+    color: #ff6a00; /* Text color for the price */
+}
+
+    /* Add styles to the currency and price value */
+    span.text-warning.float-end.font-weight-bold span {
+        border-bottom: 1px solid #ff6a00;
+        padding-bottom: 5px; /* Add padding to create space between the text and the border */
+    }
